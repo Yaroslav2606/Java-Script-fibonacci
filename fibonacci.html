@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<title>Числа Фибоначчи</title>
+<head>
+  <meta charset="utf-8">
+</head>	
+<body>
+  <script type="text/javascript">
+  function fib(n){
+	if (n==1||n==2) return 1;
+	else return fib(n-2)+fib(n-1);		
+	}
+	var userNum=+prompt('Введите порядковый номер числа Фибоначчи');
+alert('Числом Фибоначчи с номером, который Вы ввели является '+fib(userNum));
+  </script>
+</body>
+</html>
